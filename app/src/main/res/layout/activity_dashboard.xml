@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnCreateTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar Tarefa" />
+
+    <Button
+        android:id="@+id/btnViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Tarefas"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnEditDeleteTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar/Deletar Tarefas"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
